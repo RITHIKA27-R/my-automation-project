@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmartSchool Parent Mobile Automation Suite" parallel="false">
+
+    <!-- ✅ Step 1: Login Tests — fresh app, 6 login scenarios, ends with valid login -->
+    <test name="Android Login Tests">
+        <classes>
+            <class name="com.smartschool.tests.AndroidLoginTests"/>
+        </classes>
+    </test>
+
+    <!-- ✅ Step 2: Feature Tests — continues same session after valid login -->
+    <test name="Android Feature Tests">
+        <classes>
+            <class name="com.smartschool.tests.AndroidAttendanceTests"/>
+            <class name="com.smartschool.tests.AndroidClassTestTests"/>
+            <class name="com.smartschool.tests.AndroidFeePaymentTests"/>
+            <class name="com.smartschool.tests.AndroidHomeworkTests"/>
+            <class name="com.smartschool.tests.AndroidMarksTests"/>
+            <class name="com.smartschool.tests.AndroidNotificationTests"/>
+            <class name="com.smartschool.tests.AndroidTransportTests"/>
+        </classes>
+    </test>
+
+</suite>
