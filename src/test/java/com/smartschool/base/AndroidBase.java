@@ -16,7 +16,7 @@ public class AndroidBase {
     public static LoginPage loginPage;
 
     // ✅ @BeforeSuite — driver LoginTests-ல already create ஆச்சு
-    // இங்க home page-ல இருக்கான்னு மட்டும் verify பண்றோம்
+    // home page-ல இருக்கான்னு மட்டும் verify பண்றோம்
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {
         // driver LoginTests @BeforeClass-ல already set ஆகிவிடும்

@@ -6,7 +6,6 @@ import com.smartschool.base.AndroidBase;
 import com.smartschool.pages.MarksPage;
 import com.smartschool.utils.ExcelUtils;
 
-import java.util.List;
 import java.util.Map;
 
 public class AndroidMarksTests extends AndroidBase {
@@ -20,33 +19,43 @@ public class AndroidMarksTests extends AndroidBase {
         System.out.println("Marks card clicked");
     }
 
-    @Test(priority = 1, description = "All Marks test cases from MarksData sheet")
-    public void marksTests() {
-        List<Map<String, String>> rows = ExcelUtils.getTestData("MarksData");
-        for (Map<String, String> row : rows) {
-            String tc       = row.get("TestCase");
-            String examName = row.getOrDefault("ExamName", "");
-            String expected = row.get("ExpectedResult").toLowerCase().trim();
+    // TC01: Default Term1 marks (no dropdown selection)
+    @Test(priority = 1)
+    public void tc01_defaultTerm1Marks() {
+        System.out.println("\n[TC01] Checking default Term1 marks");
+        boolean page = marksPage.isMarksPageDisplayed();
+        Assert.assertTrue(page, "Marks page not displayed");
+        boolean marks = marksPage.areMarksDisplayed();
+        Assert.assertTrue(marks, "Term1 marks table not shown");
+        System.out.println("[TC01] PASSED");
+    }
 
-            System.out.println("Running: " + tc + " | Exam: " + examName);
+    // TC02: Half Yearly -> No Records Found
+    @Test(priority = 2)
+    public void tc02_halfYearlyNoRecords() {
+        Map<String, String> data = ExcelUtils.getRowByTestCase("MarksData", "TC02_HalfYearly");
+        String exam = data.get("ExamName");
+        System.out.println("\n[TC02] Selecting " + exam);
+        marksPage.selectExamFromDropdown(exam);
+        boolean noRecords = marksPage.isNoRecordsDisplayed();
+        Assert.assertTrue(noRecords, "Expected 'No Records Found' for " + exam);
+        System.out.println("[TC02] PASSED");
+    }
 
-            boolean result;
-            if (expected.contains("page") || expected.contains("display")) {
-                result = marksPage.isMarksPageDisplayed();
-            } else if (expected.contains("no record")) {
-                marksPage.selectExamFromDropdown(examName);
-                result = marksPage.isNoRecordsDisplayed();
-            } else {
-                result = false;
-            }
-
-            Assert.assertTrue(result, tc + " FAILED | Expected: " + expected);
-            System.out.println("PASSED: " + tc);
-        }
+    // TC03: 3rd Mid Term -> Marks table
+    @Test(priority = 3)
+    public void tc03_thirdMidTermMarks() {
+        Map<String, String> data = ExcelUtils.getRowByTestCase("MarksData", "TC03_3rd Mid Term");
+        String exam = data.get("ExamName");
+        System.out.println("\n[TC03] Selecting " + exam);
+        marksPage.selectExamFromDropdown(exam);
+        boolean marks = marksPage.areMarksDisplayed();
+        Assert.assertTrue(marks, "Marks table not shown for " + exam);
+        System.out.println("[TC03] PASSED");
     }
 
     @AfterClass
-    public void goBackToHome() {
+    public void goBack() {
         goBack();
     }
 }
