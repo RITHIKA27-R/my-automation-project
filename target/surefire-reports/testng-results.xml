@@ -1,226 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="27" passed="14" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-13T19:08:37 IST" name="SmartSchool Parent Mobile Automation Suite" finished-at="2026-04-13T19:14:57 IST" duration-ms="380148">
+  <suite started-at="2026-04-13T23:34:58 IST" name="Surefire suite" finished-at="2026-04-13T23:35:25 IST" duration-ms="27468">
     <groups>
     </groups>
-    <test started-at="2026-04-13T19:08:37 IST" name="Android Login Tests" finished-at="2026-04-13T19:11:15 IST" duration-ms="158190">
-      <class name="com.smartschool.tests.AndroidLoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:08:37 IST" name="setUp" finished-at="2026-04-13T19:08:54 IST" duration-ms="16729" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:08:54 IST" name="resetLoginScreen" finished-at="2026-04-13T19:09:14 IST" duration-ms="20045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc06_emptyLogin()[pri:1, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:14 IST" name="tc06_emptyLogin" description="TC06 - Empty login - Both errors" finished-at="2026-04-13T19:09:16 IST" duration-ms="2083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc06_emptyLogin -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:16 IST" name="resetLoginScreen" finished-at="2026-04-13T19:09:34 IST" duration-ms="18166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc04_onlyStudentId()[pri:2, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:34 IST" name="tc04_onlyStudentId" description="TC04 - Only Student ID" finished-at="2026-04-13T19:09:37 IST" duration-ms="3384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc04_onlyStudentId -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:37 IST" name="resetLoginScreen" finished-at="2026-04-13T19:09:56 IST" duration-ms="18979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc05_onlyPassword()[pri:3, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:56 IST" name="tc05_onlyPassword" description="TC05 - Only Password" finished-at="2026-04-13T19:09:59 IST" duration-ms="2888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc05_onlyPassword -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:09:59 IST" name="resetLoginScreen" finished-at="2026-04-13T19:10:17 IST" duration-ms="18122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc02_invalidStudentId()[pri:4, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:10:17 IST" name="tc02_invalidStudentId" description="TC02 - Invalid Student ID" finished-at="2026-04-13T19:10:23 IST" duration-ms="5644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc02_invalidStudentId -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:10:23 IST" name="resetLoginScreen" finished-at="2026-04-13T19:10:42 IST" duration-ms="18981" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc03_wrongPassword()[pri:5, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:10:42 IST" name="tc03_wrongPassword" description="TC03 - Wrong Password" finished-at="2026-04-13T19:10:47 IST" duration-ms="5102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc03_wrongPassword -->
-        <test-method is-config="true" signature="resetLoginScreen()[pri:0, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:10:47 IST" name="resetLoginScreen" finished-at="2026-04-13T19:11:06 IST" duration-ms="19407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetLoginScreen -->
-        <test-method signature="tc01_validLogin()[pri:6, instance:com.smartschool.tests.AndroidLoginTests@4567f35d]" started-at="2026-04-13T19:11:06 IST" name="tc01_validLogin" description="TC01 - Valid login - Dashboard" finished-at="2026-04-13T19:11:15 IST" duration-ms="8611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_validLogin -->
-      </class> <!-- com.smartschool.tests.AndroidLoginTests -->
-    </test> <!-- Android Login Tests -->
-    <test started-at="2026-04-13T19:11:15 IST" name="Android Feature Tests" finished-at="2026-04-13T19:14:57 IST" duration-ms="221931">
+    <test started-at="2026-04-13T23:34:58 IST" name="Surefire test" finished-at="2026-04-13T23:35:25 IST" duration-ms="27468">
       <class name="com.smartschool.tests.AndroidMarksTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@3fc2959f]" started-at="2026-04-13T19:13:44 IST" name="setUpPage" finished-at="2026-04-13T19:13:48 IST" duration-ms="4527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="marksTests()[pri:1, instance:com.smartschool.tests.AndroidMarksTests@3fc2959f]" started-at="2026-04-13T19:13:48 IST" name="marksTests" description="All Marks test cases from MarksData sheet" finished-at="2026-04-13T19:14:34 IST" duration-ms="46149" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[TC03_3rd Mid Term FAILED | Expected: marks page displayed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: TC03_3rd Mid Term FAILED | Expected: marks page displayed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at com.smartschool.tests.AndroidMarksTests.marksTests(AndroidMarksTests.java:55)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- marksTests -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@3fc2959f]" started-at="2026-04-13T19:14:34 IST" name="goBackToHome" finished-at="2026-04-13T19:14:36 IST" duration-ms="1633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidMarksTests -->
-      <class name="com.smartschool.tests.AndroidAttendanceTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smartschool.tests.AndroidAttendanceTests@6a78afa0]" started-at="2026-04-13T19:08:34 IST" name="setUp" finished-at="2026-04-13T19:08:37 IST" duration-ms="3024" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:34:33 IST" name="setUp" finished-at="2026-04-13T23:34:58 IST" duration-ms="24644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidAttendanceTests@6a78afa0]" started-at="2026-04-13T19:11:15 IST" name="setUpPage" finished-at="2026-04-13T19:11:15 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:34:58 IST" name="setUpPage" finished-at="2026-04-13T23:35:02 IST" duration-ms="4743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_attendanceNavigation()[pri:1, instance:com.smartschool.tests.AndroidAttendanceTests@6a78afa0]" started-at="2026-04-13T19:11:15 IST" name="tc01_attendanceNavigation" description="TC01 - Attendance page navigation" finished-at="2026-04-13T19:11:21 IST" duration-ms="5596" status="PASS">
+        <test-method signature="tc01_defaultMarksNavigation()[pri:1, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:35:02 IST" name="tc01_defaultMarksNavigation" description="TC01 - Default marks page navigation" finished-at="2026-04-13T23:35:07 IST" duration-ms="4492" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc01_attendanceNavigation -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidAttendanceTests@6a78afa0]" started-at="2026-04-13T19:11:21 IST" name="goBackToHome" finished-at="2026-04-13T19:11:22 IST" duration-ms="1627" status="PASS">
+        </test-method> <!-- tc01_defaultMarksNavigation -->
+        <test-method signature="tc02_dynamicExamTests()[pri:2, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:35:07 IST" name="tc02_dynamicExamTests" description="TC02+ - Dynamic exam tests from Excel" finished-at="2026-04-13T23:35:24 IST" duration-ms="17078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goBackToHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.smartschool.tests.AndroidAttendanceTests@6a78afa0]" started-at="2026-04-13T19:14:57 IST" name="tearDown" finished-at="2026-04-13T19:14:59 IST" duration-ms="2174" status="PASS">
+        </test-method> <!-- tc02_dynamicExamTests -->
+        <test-method is-config="true" signature="navigateBack()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:35:24 IST" name="navigateBack" finished-at="2026-04-13T23:35:25 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.smartschool.tests.AndroidMarksTests@2145b572]" started-at="2026-04-13T23:35:25 IST" name="tearDown" finished-at="2026-04-13T23:35:27 IST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.smartschool.tests.AndroidAttendanceTests -->
-      <class name="com.smartschool.tests.AndroidFeePaymentTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidFeePaymentTests@1f2586d6]" started-at="2026-04-13T19:11:31 IST" name="setUpPage" finished-at="2026-04-13T19:11:31 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_feePaymentNavigation()[pri:1, instance:com.smartschool.tests.AndroidFeePaymentTests@1f2586d6]" started-at="2026-04-13T19:11:31 IST" name="tc01_feePaymentNavigation" description="TC01 - Fee Payment page navigation" finished-at="2026-04-13T19:11:38 IST" duration-ms="6677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_feePaymentNavigation -->
-        <test-method signature="tc02_makePaymentButton()[pri:2, instance:com.smartschool.tests.AndroidFeePaymentTests@1f2586d6]" started-at="2026-04-13T19:11:38 IST" name="tc02_makePaymentButton" description="TC02 - Make Payment button" finished-at="2026-04-13T19:12:13 IST" duration-ms="34858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc02_makePaymentButton -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidFeePaymentTests@1f2586d6]" started-at="2026-04-13T19:12:13 IST" name="goBackToHome" finished-at="2026-04-13T19:12:15 IST" duration-ms="1616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidFeePaymentTests -->
-      <class name="com.smartschool.tests.AndroidClassTestTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidClassTestTests@2f4948e4]" started-at="2026-04-13T19:11:22 IST" name="setUpPage" finished-at="2026-04-13T19:11:22 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_classTestNavigation()[pri:1, instance:com.smartschool.tests.AndroidClassTestTests@2f4948e4]" started-at="2026-04-13T19:11:22 IST" name="tc01_classTestNavigation" description="TC01 - Class Test page navigation" finished-at="2026-04-13T19:11:30 IST" duration-ms="7504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_classTestNavigation -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidClassTestTests@2f4948e4]" started-at="2026-04-13T19:11:30 IST" name="goBackToHome" finished-at="2026-04-13T19:11:31 IST" duration-ms="1602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidClassTestTests -->
-      <class name="com.smartschool.tests.AndroidTransportTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidTransportTests@6989da5e]" started-at="2026-04-13T19:14:44 IST" name="setUpPage" finished-at="2026-04-13T19:14:44 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_transportNavigation()[pri:1, instance:com.smartschool.tests.AndroidTransportTests@6989da5e]" started-at="2026-04-13T19:14:44 IST" name="tc01_transportNavigation" description="TC01 - Transport page navigation" finished-at="2026-04-13T19:14:55 IST" duration-ms="11371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_transportNavigation -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidTransportTests@6989da5e]" started-at="2026-04-13T19:14:55 IST" name="goBackToHome" finished-at="2026-04-13T19:14:57 IST" duration-ms="1633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidTransportTests -->
-      <class name="com.smartschool.tests.AndroidNotificationTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidNotificationTests@5aa9e4eb]" started-at="2026-04-13T19:14:36 IST" name="setUpPage" finished-at="2026-04-13T19:14:36 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_notificationNavigation()[pri:1, instance:com.smartschool.tests.AndroidNotificationTests@5aa9e4eb]" started-at="2026-04-13T19:14:36 IST" name="tc01_notificationNavigation" description="TC01 - Notification page navigation" finished-at="2026-04-13T19:14:42 IST" duration-ms="6460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_notificationNavigation -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidNotificationTests@5aa9e4eb]" started-at="2026-04-13T19:14:42 IST" name="goBackToHome" finished-at="2026-04-13T19:14:44 IST" duration-ms="1590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidNotificationTests -->
-      <class name="com.smartschool.tests.AndroidHomeworkTests">
-        <test-method is-config="true" signature="setUpPage()[pri:0, instance:com.smartschool.tests.AndroidHomeworkTests@10683d9d]" started-at="2026-04-13T19:12:15 IST" name="setUpPage" finished-at="2026-04-13T19:12:15 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpPage -->
-        <test-method signature="tc01_homeworkNavigation()[pri:1, instance:com.smartschool.tests.AndroidHomeworkTests@10683d9d]" started-at="2026-04-13T19:12:15 IST" name="tc01_homeworkNavigation" description="TC01 - Homework page navigation" finished-at="2026-04-13T19:13:24 IST" duration-ms="68920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_homeworkNavigation -->
-        <test-method signature="tc02_homeworkDataDisplayed()[pri:2, instance:com.smartschool.tests.AndroidHomeworkTests@10683d9d]" started-at="2026-04-13T19:13:24 IST" name="tc02_homeworkDataDisplayed" description="TC02 - Homework data displayed dynamically" finished-at="2026-04-13T19:13:42 IST" duration-ms="18542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc02_homeworkDataDisplayed -->
-        <test-method is-config="true" signature="goBackToHome()[pri:0, instance:com.smartschool.tests.AndroidHomeworkTests@10683d9d]" started-at="2026-04-13T19:13:42 IST" name="goBackToHome" finished-at="2026-04-13T19:13:44 IST" duration-ms="1592" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goBackToHome -->
-      </class> <!-- com.smartschool.tests.AndroidHomeworkTests -->
-    </test> <!-- Android Feature Tests -->
-  </suite> <!-- SmartSchool Parent Mobile Automation Suite -->
+      </class> <!-- com.smartschool.tests.AndroidMarksTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="385.917" tests="15" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.smartschool.tests.AndroidMarksTests" time="54.499" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Eclipse_Adoptium\jdk-17.0.18.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rithika R\AppData\Local\Temp\surefire8845602299497996025\surefirebooter-20260413190833662_3.jar C:\Users\Rithika R\AppData\Local\Temp\surefire8845602299497996025 2026-04-13T19-08-33_492-jvmRun1 surefire-20260413190833662_1tmp surefire_0-20260413190833662_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rithika R\AppData\Local\Temp\surefire3313289697508470299\surefirebooter-20260413233432891_3.jar C:\Users\Rithika R\AppData\Local\Temp\surefire3313289697508470299 2026-04-13T23-34-32_737-jvmRun1 surefire-20260413233432891_1tmp surefire_0-20260413233432891_2tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="AndroidMarksTests"/>
     <property name="surefire.test.class.path" value="C:\MobileAutomation\Smartschool_parent\target\test-classes;C:\MobileAutomation\Smartschool_parent\target\classes;C:\Users\Rithika R\.m2\repository\io\appium\java-client\8.6.0\java-client-8.6.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\Rithika R\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Rithika R\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Rithika R\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Rithika R\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rithika R\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Rithika R\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Rithika R\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Rithika R\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Rithika R\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Rithika R\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Rithika R\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Rithika R\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Rithika R\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Rithika R\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Rithika R\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Rithika R\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\Rithika R\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\Rithika R\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\Rithika R\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Rithika R\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Rithika R\.m2\repository\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar;C:\Users\Rithika R\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Rithika R\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Rithika R\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Rithika R\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Rithika R\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\Rithika R\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Rithika R\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Rithika R\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Rithika R\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Rithika R\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Rithika R\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Rithika R\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Rithika R\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Rithika R\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Rithika R\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Rithika R\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Rithika R\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Rithika R"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rithika R\AppData\Local\Temp\surefire8845602299497996025\surefirebooter-20260413190833662_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rithika R\AppData\Local\Temp\surefire3313289697508470299\surefirebooter-20260413233432891_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8"/>
@@ -58,9 +59,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="tc06_emptyLogin" classname="com.smartschool.tests.AndroidLoginTests" time="2.083">
-    <system-out><![CDATA[Login Tests setup done
-TC06 PASSED
+  <testcase name="tc01_defaultMarksNavigation" classname="com.smartschool.tests.AndroidMarksTests" time="4.5">
+    <system-out><![CDATA[Driver not found – initializing for standalone execution
+Login Successful for standalone suite
+Home page ready — proceeding with tests
+✅ Marks card clicked
+
+[TC01] Checking default marks page
+✅ Marks Scored page displayed
+✅ Marks data displayed (subject row found)
+[TC01] PASSED ✅
 ]]></system-out>
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
@@ -68,139 +76,26 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="tc04_onlyStudentId" classname="com.smartschool.tests.AndroidLoginTests" time="3.389">
-    <system-out><![CDATA[TC04 PASSED
-]]></system-out>
-  </testcase>
-  <testcase name="tc05_onlyPassword" classname="com.smartschool.tests.AndroidLoginTests" time="2.896">
-    <system-out><![CDATA[TC05 PASSED
-]]></system-out>
-  </testcase>
-  <testcase name="tc02_invalidStudentId" classname="com.smartschool.tests.AndroidLoginTests" time="5.65">
-    <system-out><![CDATA[TC02 PASSED
-]]></system-out>
-  </testcase>
-  <testcase name="tc03_wrongPassword" classname="com.smartschool.tests.AndroidLoginTests" time="5.109">
-    <system-out><![CDATA[TC03 PASSED
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_validLogin" classname="com.smartschool.tests.AndroidLoginTests" time="8.613">
-    <system-out><![CDATA[TC01 PASSED - Login Successful — home page ready
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_attendanceNavigation" classname="com.smartschool.tests.AndroidAttendanceTests" time="5.605">
-    <system-out><![CDATA[TC01 PASSED - Attendance page displayed
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_classTestNavigation" classname="com.smartschool.tests.AndroidClassTestTests" time="7.505">
-    <system-out><![CDATA[Navigated back
-TC01 PASSED - Class Test page displayed
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_feePaymentNavigation" classname="com.smartschool.tests.AndroidFeePaymentTests" time="6.676">
-    <system-out><![CDATA[Navigated back
-Fee details found
-TC01 PASSED - Fee Payment page verified
-]]></system-out>
-  </testcase>
-  <testcase name="tc02_makePaymentButton" classname="com.smartschool.tests.AndroidFeePaymentTests" time="34.86">
-    <system-out><![CDATA[TC02 PASSED - Make Payment button verified
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_homeworkNavigation" classname="com.smartschool.tests.AndroidHomeworkTests" time="68.919">
-    <system-out><![CDATA[Navigated back
-XPath not found, trying after scroll...
-Still not found, trying list scan...
-Homework card tapped via coordinate fallback
-Homework page title found
-TC01 PASSED - Homework page displayed
-]]></system-out>
-  </testcase>
-  <testcase name="tc02_homeworkDataDisplayed" classname="com.smartschool.tests.AndroidHomeworkTests" time="18.54">
-    <system-out><![CDATA[Homework item found: 📅 13-04-2026 (Monday)
-English:
-complete module 2
-Maths:
-exercise 1.1
-Homework item found: 📅 11-02-2026 (Wednesday)
-Maths:
-module 2
-Tamil:
-complete lesson 2
-Total homework items: 2
-Homework count: 2
-TC02 PASSED - Count: 2
-]]></system-out>
-  </testcase>
-  <testcase name="marksTests" classname="com.smartschool.tests.AndroidMarksTests" time="46.151">
-    <failure message="TC03_3rd Mid Term FAILED | Expected: marks page displayed expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: TC03_3rd Mid Term FAILED | Expected: marks page displayed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at com.smartschool.tests.AndroidMarksTests.marksTests(AndroidMarksTests.java:55)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[Navigated back
-Marks card clicked
+  <testcase name="tc02_dynamicExamTests" classname="com.smartschool.tests.AndroidMarksTests" time="17.073">
+    <system-out><![CDATA[[SKIP] TC01 — no dropdown needed
 
-Running: TC01_MarksNavigation | Exam: 
-✅ Marks Scored page displayed
-✅ PASSED: TC01_MarksNavigation
-
-Running: TC02_HalfYearly | Exam: Half Yearly
+[TC02_HalfYearly] Selecting: Half Yearly | Expected: No Records Found
 📋 Opening exam dropdown...
    Found dropdown button: 3rd Mid Term
 ✅ Dropdown open — looking for: Half Yearly
    ✅ Found 'Half Yearly' on attempt 1
 ✅ Selected: Half Yearly
 ✅ No Records Found is displayed
-✅ PASSED: TC02_HalfYearly
+[TC02_HalfYearly] PASSED — No Records Found ✅
 
-Running: TC03_3rd Mid Term | Exam: 3rd Mid Term
-✅ Marks Scored page displayed
-❌ No marks data found
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_notificationNavigation" classname="com.smartschool.tests.AndroidNotificationTests" time="6.458">
-    <system-out><![CDATA[Navigated back
-TC01 PASSED - Notifications page displayed
-]]></system-out>
-  </testcase>
-  <testcase name="tc01_transportNavigation" classname="com.smartschool.tests.AndroidTransportTests" time="11.368">
-    <system-out><![CDATA[Navigated back
-Bus Details: Bus No. : 03
-TC01 PASSED - Bus: Bus No. : 03
+[TC03_3rd Mid Term] Selecting: 3rd Mid Term | Expected: Marks Page Displayed
+📋 Opening exam dropdown...
+   Found dropdown button: Half Yearly
+✅ Dropdown open — looking for: 3rd Mid Term
+   ✅ Found '3rd Mid Term' on attempt 1
+✅ Selected: 3rd Mid Term
+✅ Marks data displayed (subject row found)
+[TC03_3rd Mid Term] PASSED — Marks displayed ✅
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -14,9 +14,9 @@ public class ExcelUtils {
     private static final String FILE_PATH =
         "src/test/resources/testdata.xlsx";
 
+    // ✅ EXISTING — தொடாத!
     public static List<Map<String, String>> getTestData(String sheetName) {
         List<Map<String, String>> data = new ArrayList<>();
-
         try (FileInputStream fis = new FileInputStream(FILE_PATH);
              Workbook workbook = new XSSFWorkbook(fis)) {
 
@@ -42,17 +42,10 @@ public class ExcelUtils {
                     String value = "";
                     if (cell != null) {
                         switch (cell.getCellType()) {
-                            case STRING:
-                                value = cell.getStringCellValue().trim();
-                                break;
-                            case NUMERIC:
-                                value = String.valueOf((long) cell.getNumericCellValue());
-                                break;
-                            case BOOLEAN:
-                                value = String.valueOf(cell.getBooleanCellValue());
-                                break;
-                            default:
-                                value = "";
+                            case STRING:  value = cell.getStringCellValue().trim(); break;
+                            case NUMERIC: value = String.valueOf((long) cell.getNumericCellValue()); break;
+                            case BOOLEAN: value = String.valueOf(cell.getBooleanCellValue()); break;
+                            default:      value = "";
                         }
                     }
                     rowData.put(headers.get(j), value);
@@ -66,7 +59,7 @@ public class ExcelUtils {
         return data;
     }
 
-    // ✅ Single row get — TestCase name-ல இருந்து
+    // ✅ EXISTING — தொடாத!
     public static Map<String, String> getRowByTestCase(String sheetName, String testCaseName) {
         List<Map<String, String>> allData = getTestData(sheetName);
         for (Map<String, String> row : allData) {
@@ -75,5 +68,10 @@ public class ExcelUtils {
             }
         }
         return new HashMap<>();
+    }
+
+    // ✅ NEW — இதை மட்டும் ADD பண்ணு!
+    public static List<Map<String, String>> getAllRows(String sheetName) {
+        return getTestData(sheetName); // getTestData-யே reuse பண்றோம்!
     }
 }
